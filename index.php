@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
-</html>
+<?php
+
+include_once ('kernel/Status.class.php');
+include_once ('kernel/Rest.class.php');
+include_once ('kernel/Db.class.php');
+include_once ('libs/Neon.php');
+
+/*
+
+echo file_get_contents('php://input');
+
+echo $_SERVER['REQUEST_METHOD'];
+
+*/
+new Rest;
